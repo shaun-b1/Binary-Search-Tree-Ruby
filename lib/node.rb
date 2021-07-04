@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Node
   attr_accessor :data, :left, :right
 
@@ -6,4 +8,4 @@ class Node
     @left = left
     @right = right
   end
-end 
+end

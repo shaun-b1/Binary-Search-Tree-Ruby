@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'binary_tree'
 require_relative 'node'
 
