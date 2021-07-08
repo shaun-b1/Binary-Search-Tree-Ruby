@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Class definition for Node objects, which make up the binary tree
 class Node
   attr_accessor :data, :left, :right
 
