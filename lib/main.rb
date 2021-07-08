@@ -33,9 +33,7 @@ puts '2...'
 sleep 1
 puts '1...'
 sleep 1
-16.times do
-  tree.insert(rand(100..1000))
-end
+16.times {tree.insert(rand(100..1000))}
 puts 'Here is the tree now: '
 tree.pretty_print
 puts "\n"
